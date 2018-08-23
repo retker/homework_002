@@ -15,6 +15,7 @@ function task1($words, $parOut = false)
     return $result;
 }
 
+
 function task2()
 {
     $parametrs = func_num_args();
@@ -33,7 +34,11 @@ function task2()
                 $result *= $arg_list[$i];
                 break;
             case '/':
-                $result /= $arg_list[$i];
+                if ($arg_list[$i] != 0) {
+                    $result /= $arg_list[$i];
+                } else {
+                    echo 'Ошибка деления на ноль!';
+                }
                 break;
             default:
                 break;
