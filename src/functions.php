@@ -51,8 +51,8 @@ function task2()
 
 function task3($numberOne, $numberTwo)
 {
-    //if (is_int($numberOne) and is_int($numberTwo) and $numberOne >= 1 and $numberTwo >= 1 == true) {
-    if (is_int($numberOne) and is_int($numberTwo) == true) {
+    if (is_int($numberOne) and is_int($numberTwo) and $numberOne >= 1 and $numberTwo >= 1 == true) {
+    //if (is_int($numberOne) and is_int($numberTwo) == true) {
         echo '<table style border="2">';
         for ($tr = 1; $tr <= $numberOne; $tr++) {
             echo '<tr style="text-align: center">';
