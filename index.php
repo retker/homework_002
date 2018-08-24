@@ -20,7 +20,7 @@ echo PHP_EOL;
 echo PHP_EOL;
 
 echo 'задание 3' . PHP_EOL;
-task3(6, 5);
+task3(-10, -10);
 echo PHP_EOL;
 echo PHP_EOL;
 
